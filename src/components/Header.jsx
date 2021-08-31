@@ -1,6 +1,4 @@
-import Container from "./Container";
-import Logo from "./Logo";
-import Button from "./Button";
+import { Container, Logo, Button } from "../components";
 
 function Header() {
   return (
