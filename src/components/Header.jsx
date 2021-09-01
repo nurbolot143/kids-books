@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom";
 import { Container, Logo, Button } from "../components";
 
 function Header() {
   return (
     <div className="header">
       <Container>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
+
         <div className="header__cart">
-          <Button className={"button--cart"} />
+          <Link to="/cart">
+            <Button className={"button--cart"} />
+          </Link>
         </div>
       </Container>
     </div>
