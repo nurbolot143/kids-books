@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Container } from "../components";
 
 function Cart() {
@@ -234,17 +235,15 @@ function Cart() {
         <div className="cart__bottom">
           <div className="cart__bottom-details">
             <span>
-              {" "}
-              Всего в корзине: <b>2 шт.</b>{" "}
+              Всего в корзине: <b>2 шт.</b>
             </span>
             <span>
-              {" "}
-              Сумма заказа: <b>1400 ₽</b>{" "}
+              Сумма заказа: <b>1400 ₽</b>
             </span>
           </div>
           <div className="cart__bottom-buttons">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="button button--outline button--add go-back-btn"
             >
               <svg
@@ -264,7 +263,7 @@ function Cart() {
               </svg>
 
               <span>Вернуться назад</span>
-            </a>
+            </Link>
             <div className="button pay-btn">
               <span>Оплатить сейчас</span>
             </div>
