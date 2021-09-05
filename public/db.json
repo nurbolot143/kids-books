@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "imageUrl": "https://thumbs.dfs.ivi.ru/storage6/contents/9/2/aa91f2242c0481a4581c3aeb6f4c89.jpg",
+      "name": "Алиса в стране Чудес",
+      "types": [0],
+      "price": 400,
+      "category": 0
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://livetotravel.ru/wp-content/uploads/2015/07/1-Nikolay-Nosov-Bolshaya-kniga-rasskazov.jpg",
+      "name": "Большая книга рассказов",
+      "types": [0, 1],
+      "price": 700,
+      "category": 0
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://livetotravel.ru/wp-content/uploads/2015/07/4-Dudlpediya.jpg",
+      "name": "В мире людей и животных",
+      "types": [1],
+      "price": 800,
+      "category": 0
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://artdelivre.ru/wp-content/uploads/2020/09/zolotoy_klyuchik_ili_priklyucheniya_buratino.jpg",
+      "name": "Золотой ключик, или Приключения Буратино",
+      "types": [0, 1],
+      "price": 300,
+      "category": 0
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7e3c96b0-6dcd-4e16-8576-9e5c873f4040/300x450",
+      "name": "Чудесное путешествие Нильса с дикими гусями",
+      "types": [0, 1],
+      "price": 600,
+      "category": 0
+    }
+  ]
+}
